@@ -41,12 +41,9 @@ Set more key frames between 0% and 100%. */
     transform: translateX(50px);
   }
   50% {
-    transform: translateX(75px);
-  }
-  70% {
     transform: translateX(100px);
   }
-  80% {
+  75% {
     transform: translateX(50px);
   }
   100% {
@@ -65,12 +62,9 @@ Set more key frames between 0% and 100%. */
     transform: translateX(50px);
   }
   50% {
-    transform: translateX(75px);
-  }
-  70% {
     transform: translateX(100px);
   }
-  80% {
+  75% {
     transform: translateX(50px);
   }
   100% {
@@ -81,11 +75,12 @@ Set more key frames between 0% and 100%. */
 /* bonus: apply the transition on the box shadow with different duration and timing function. This should all be in one line*/
 .todo-3-container button {
   /* Apply transition here */
-    transition: transform 300ms ease-in-out 0s, box-shadow 600ms linear;
+  transition: transform 300ms ease-in-out, box-shadow 600ms linear;
 }
+
 .todo-3-container button:hover {
-    transform: translateY(-20px)
-    box-shadow: 10px 5px 5px
-  }
-  
+  transform: translateY(-20px);
+  box-shadow: 10px 5px 5px;
+}
+
 
